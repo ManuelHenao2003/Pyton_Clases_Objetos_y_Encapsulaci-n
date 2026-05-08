@@ -1,4 +1,4 @@
-rimero se creó la clase CuentaBancaria, la cual representa una cuenta bancaria con un titular y un saldo. Dentro del constructor __init__ se definieron los atributos privados _titular y _saldo. Se utilizaron guiones bajos al inicio de los nombres para indicar que estos atributos no deberían modificarse directamente desde fuera de la clase.
+Primero se creó la clase CuentaBancaria, la cual representa una cuenta bancaria con un titular y un saldo. Dentro del constructor __init__ se definieron los atributos privados _titular y _saldo. Se utilizaron guiones bajos al inicio de los nombres para indicar que estos atributos no deberían modificarse directamente desde fuera de la clase.
 
 Después se implementaron propiedades usando @property. La propiedad titular se dejó como solo lectura, permitiendo únicamente consultar el nombre del titular, pero no modificarlo directamente. Esto ayuda a proteger la información del usuario.
 
